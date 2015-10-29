@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
   dslVersion="1.0.0.0"
   Id="611d0dda-1055-4b6d-bca5-9dad81e292a9"
   name="model" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
@@ -167,66 +167,6 @@
             </relationshipOwnedElementsInternal>
           </association>
           <association
-            Id="e57045bc-7b13-49b4-8760-d3f0a1a89346"
-            isDerived="false"
-            sourceEndRoleName=""
-            targetEndRoleName="m_deck"
-            isLeaf="false"
-            isAbstract="false">
-            <classMoniker
-              Id="06cd8108-1c58-4959-aa2a-814dbf8ef652"
-              LastKnownName="Deck"
-              LastKnownLocation="Package1_0950.uml" />
-            <relationshipOwnedElementsInternal>
-              <associationHasOwnedEnds>
-                <memberEnd
-                  Id="df02b2e3-4c80-4a42-8c12-261f961b8ba9"
-                  isLeaf="false"
-                  isStatic="false"
-                  isReadOnly="false"
-                  isDerived="false"
-                  isDerivedUnion="false"
-                  aggregation="None"
-                  isComposite="false"
-                  isNavigableOwned="false">
-                  <lowerValueInternal>
-                    <literalString
-                      Id="699342a0-609b-4e46-bfec-e0049a9bd5a8"
-                      name="Lower" />
-                  </lowerValueInternal>
-                  <upperValueInternal>
-                    <literalString
-                      Id="331b3406-e38b-472b-97e2-4e21136cda94"
-                      name="Upper" />
-                  </upperValueInternal>
-                </memberEnd>
-              </associationHasOwnedEnds>
-              <associationHasOwnedEnds>
-                <memberEnd
-                  Id="da98c79c-f34e-4e9e-b425-558bc06a6e06"
-                  name="m_deck"
-                  isLeaf="false"
-                  isStatic="false"
-                  isReadOnly="false"
-                  isDerived="false"
-                  isDerivedUnion="false"
-                  aggregation="None"
-                  isComposite="false">
-                  <lowerValueInternal>
-                    <literalString
-                      Id="cf1bd6f4-608c-4eca-b153-0624ebb2a32b"
-                      name="Lower" />
-                  </lowerValueInternal>
-                  <upperValueInternal>
-                    <literalString
-                      Id="48f08848-ebfa-43bc-a6aa-b3a51360f5b9"
-                      name="Upper" />
-                  </upperValueInternal>
-                </memberEnd>
-              </associationHasOwnedEnds>
-            </relationshipOwnedElementsInternal>
-          </association>
-          <association
             Id="4f9c5b64-9ff7-4293-a806-09f08e8e81d3"
             isDerived="false"
             sourceEndRoleName=" "
@@ -281,6 +221,67 @@
                   <upperValueInternal>
                     <literalString
                       Id="7368374a-95a2-4232-be7d-c12247abdecd"
+                      name="Upper" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="74ed32e6-2e59-44be-a132-00d56e2549ab"
+            isDerived="false"
+            sourceEndRoleName=" "
+            targetEndRoleName="m_deck"
+            isLeaf="false"
+            isAbstract="false">
+            <interfaceMoniker
+              Id="5a82469a-1020-4bd8-93ee-fa2911c5354e"
+              LastKnownName="IDeck"
+              LastKnownLocation="Package_1425.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4704e6ea-366f-454b-b2e5-cdaee987e3d2"
+                  name=" "
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="e7ae84f5-2ba6-400c-bc69-1ab1aea048f4"
+                      name="Lower" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="c22d37fa-a5d9-4e38-a0d4-f411096f265b"
+                      name="Upper" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="abc8df5f-e30a-4ef5-a3d8-dc8faa5839a2"
+                  name="m_deck"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="b12d3b69-2379-424e-a12f-47e30965529b"
+                      name="Lower" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="73f36c1a-22e3-4176-8967-14c000ea02c3"
                       name="Upper" />
                   </upperValueInternal>
                 </memberEnd>
